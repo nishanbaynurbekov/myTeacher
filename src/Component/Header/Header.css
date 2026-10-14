@@ -1,0 +1,113 @@
+/* Жалпы Header фону жана контейнери */
+.portfolio-header {
+  width: 100%;
+  min-height: 400px;
+  /* Ноутбук, блокнот жана кофе тартылган сүрөт фону */
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+              url('https://images.unsplash.com/photo-1499750310107-5fef28a66643?q=80&w=1600&auto=format&fit=crop') no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 20px 40px 60px 40px;
+  color: #ffffff;
+}
+
+/* Үстүңкү навигация тилкеси */
+.nav-bar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+/* Оң тараптагы шилтемелер */
+.right-links {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+.nav-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: opacity 0.2s ease;
+}
+
+.nav-link:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
+.link-icon {
+  display: none;
+  font-size: 20px;
+}
+
+/* Ортодогу "Мугалимдин электрондук портфолиосу" деген жазуу */
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  text-align: center;
+}
+
+.hero-text {
+  font-size: 42px;
+  font-weight: 500;
+  color: #ffffff;
+  margin: 0;
+  letter-spacing: 1px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+/* Мобилдик түзмөктөргө ыңгайлаштыруу (Телефондор үчүн) */
+@media (max-width: 768px) {
+  .portfolio-header {
+    min-height: 200px; /* Бийиктигин кичирейттик */
+    padding: 12px 15px 20px 15px; /* Ички аралыктарын азайттык */
+    justify-content: space-between;
+  }
+
+  .nav-bar {
+    justify-content: center;
+  }
+
+  .right-links {
+    gap: 12px; /* Иконкалардын аралыгын жышыраттык */
+  }
+
+  /* Текстти ЖАШЫРУУ */
+  .link-text {
+    display: none;
+  }
+
+  /* Иконкаларды КӨРСӨТҮҮ жана өлчөмүн ылайыктоо */
+  .link-icon {
+    display: inline-block;
+    font-size: 18px;
+    background: rgba(0, 0, 0, 0.5); /* Кара фон тунук кылып кооздодук */
+    color: #fff;
+    padding: 8px;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-section {
+    margin-top: 15px; /* Жазууну жогору жылдырдык */
+  }
+
+  .hero-text {
+    font-size: 20px; /* Жазуунун шрифтин телефонго ылайыктадык */
+  }
+}

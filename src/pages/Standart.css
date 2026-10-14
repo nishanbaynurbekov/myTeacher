@@ -1,0 +1,274 @@
+.standart-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: 'Times New Roman', Times, serif; /* Документтердей классикалык шрифт */
+  color: #111;
+}
+
+.document-header-title {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.document-header-title h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.doc-subtitle {
+  color: #555;
+  font-size: 16px;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+/* Авторизация */
+.auth-status-bar {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-login-toggle {
+  background-color: #f8fafc;
+  color: #1d4ed8;
+  border: 1px solid #93c5fd;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.admin-badge-box {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background-color: #f0fdf4;
+  border: 1px solid #86efac;
+  padding: 8px 16px;
+  border-radius: 6px;
+}
+
+.admin-tag {
+  color: #15803d;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.btn-logout {
+  background-color: #dc2626;
+  color: white;
+  border: none;
+  padding: 5px 12px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* Документ формасы (Кагаз окшоштук) */
+.document-sheet {
+  background: #ffffff;
+  border: 1px solid #cbd5e1;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  padding: 50px;
+  border-radius: 4px;
+  min-height: 500px;
+}
+
+.document-content-area h3 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  border-bottom: 2px solid #000;
+  padding-bottom: 8px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.guest-notice {
+  font-size: 14px;
+  color: #64748b;
+  font-weight: normal;
+  float: right;
+}
+
+/* Тизме саптары (Документтегидей абзац болуп тизилет) */
+.standards-list-block {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.standard-item-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-bottom: 12px;
+  border-bottom: 1px dotted #e2e8f0;
+}
+
+.item-text-content {
+  flex-grow: 1;
+}
+
+.item-category-label {
+  display: block;
+  font-size: 15px;
+  font-weight: bold;
+  color: #1e3a8a;
+  margin-bottom: 4px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.item-main-text {
+  font-size: 18px; /* Тексттер чоңураак жана окууга ыңгайлуу болду */
+  line-height: 1.6;
+  color: #222;
+  margin: 0;
+  text-align: justify;
+}
+
+.item-number {
+  font-weight: bold;
+  margin-right: 8px;
+  color: #0f172a;
+}
+
+/* Башкаруу кнопкалары */
+.item-actions {
+  display: flex;
+  gap: 6px;
+  margin-left: 15px;
+}
+
+.btn-edit, .btn-delete {
+  background: #f8fafc;
+  border: 1px solid #cbd5e1;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 6px 8px;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+.btn-edit:hover {
+  background-color: #dbeafe;
+}
+
+.btn-delete:hover {
+  background-color: #fee2e2;
+}
+
+/* Админ формасы */
+.standart-form {
+  background: #f8fafc;
+  border: 1px solid #94a3b8;
+  border-radius: 8px;
+  padding: 25px;
+  margin-bottom: 30px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.standart-form h3 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #1e3a8a;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #94a3b8;
+  border-radius: 6px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.form-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  padding: 8px 18px;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #2563eb;
+  color: #ffffff;
+}
+
+.btn-primary:hover {
+  background-color: #1d4ed8;
+}
+
+.btn-secondary {
+  background-color: #64748b;
+  color: #ffffff;
+}
+
+/* Модалдык терезе */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2000;
+}
+
+.modal-content {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 380px;
+}
+
+.modal-content input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.loading-text, .empty-text {
+  text-align: center;
+  font-size: 18px;
+  color: #64748b;
+  padding: 30px 0;
+}
