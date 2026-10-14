@@ -1,0 +1,76 @@
+/* Жалпы футер стили */
+.site-footer {
+  background-color: #0f172a; /* Кочкул заманбап түс */
+  color: #f8fafc;
+  padding: 50px 20px 20px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 60px;
+}
+
+/* Колонналарды жайгаштыруу */
+.footer-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #334155;
+}
+
+.footer-col h3, 
+.footer-col h4 {
+  color: #ffffff;
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+
+.footer-col h3 {
+  font-size: 20px;
+}
+
+.footer-col h4 {
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #38bdf8;
+}
+
+.footer-col p {
+  color: #94a3b8;
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 0 0 10px 0;
+}
+
+/* Шилтемелер тизмеси */
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #94a3b8;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.2s ease;
+}
+
+.footer-links a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+/* Төмөнкү автордук укук бөлүгү */
+.footer-bottom {
+  max-width: 1100px;
+  margin: 20px auto 0 auto;
+  text-align: center;
+  color: #64748b;
+  font-size: 13px;
+}
