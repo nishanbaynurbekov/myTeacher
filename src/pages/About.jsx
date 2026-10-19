@@ -1,6 +1,7 @@
 import React from 'react'
 import './About.css'
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPaintBrush } from '@fortawesome/free-solid-svg-icons'
 function About() {
   return (
     <div className="about-container">
@@ -31,17 +32,16 @@ function About() {
         <div className="about-card">
           <div className="card-icon">💼</div>
           <h3>Эмгек стажы</h3>
-          <p className="card-subtitle">Педагогикалык стаж: 12 жыл</p>
+          <p className="card-subtitle">Педагогикалык стаж</p>
           <ul className="about-list">
-            <li><strong>Иш тажрыйбасы:</strong> 2022-жылы  
-            М.Эргашев атындагы орто мектебинде ишин баштады</li>
-            <li>2026-жыл Т.Сатылганов атындагы санаториялык мектеп интернатына жумушка орношту</li><hr />
+            <li><strong>Эмгек жолу:</strong>2022-жылы М.Эргашев атындагы орто мектебинде баштап, 2026-жыл аталган мектеп менен Токтогул атындагы санаториялык жатак мектебин айкалыштырып иштейт</li>
              <li><strong>Жетишкендиктери:</strong> Райондук жана областык "Жылдын мугалими" сынагынын катышуучусу</li>
           </ul>
         </div>
         {/* Кесиптик көндүмдөр */}
         <div className="about-card">
-          <div className="card-icon">🛠️</div>
+          <div className="card-icon">
+          <FontAwesomeIcon icon={faPaintBrush} style={{color: "brown"}}/></div>
           <h3>Кесиптик көндүмдөр</h3>
           <p className="card-subtitle">Практикалык жана санариптик жөндөмдөр</p>
           <ul className="about-list">

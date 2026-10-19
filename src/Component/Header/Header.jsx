@@ -13,19 +13,19 @@ function Header() {
           <Link to="/" className="nav-link">
             <span className="link-icon">
               <FontAwesomeIcon icon={faHouse}/></span>
-            <span className="link-text">Главная страница</span>
+            <span className="link-text">Жетишкендиктер</span>
           </Link>
           <Link to="/about" className="nav-link">
             <span className="link-icon">
               <FontAwesomeIcon icon={faGraduationCap}  />
             </span>
-            <span className="link-text">Биз жөнүндө</span>
+            <span className="link-text">Портфолио</span>
           </Link>
-          <Link to="/grand" className="nav-link">
+          <Link to="/miss" className="nav-link">
             <span className="link-icon">
               <FontAwesomeIcon icon={faAward} style={{color: "gold"}}/>
             </span>
-            <span className="link-text">Сыйлыктар</span>
+            <span className="link-text">Максат</span>
           </Link>
           <Link to="/standart" className="nav-link">
             <span className="link-icon">

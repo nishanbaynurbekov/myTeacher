@@ -31,7 +31,7 @@ function Footer() {
           <p>📧 bainazarovazizbek2@gmail.com</p>
           <p> </p>
           <div className="social-links" style={{ display: 'flex', gap: '15px', marginTop: '15px' }}>
-          <a href="https://instagram.com/_bainazarov_azizbek_00_" target="_blank" rel="noopener noreferrer" style={{ color: '#e1306c', textDecoration: 'none', fontWeight: '600' }}>📸 Instagram</a>
+          <a href="https://instagram.com/_toktogul_media" target="_blank" rel="noopener noreferrer" style={{ color: '#e1306c', textDecoration: 'none', fontWeight: '600' }}>📸 Instagram</a>
           <a href="https://wa.me/996703482891" target="_blank" rel="noopener noreferrer" style={{ color: '#25d366', textDecoration: 'none', fontWeight: '600' }}>💬 WhatsApp</a>
           </div>
         </div>

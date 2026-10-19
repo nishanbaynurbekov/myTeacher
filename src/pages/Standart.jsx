@@ -207,7 +207,7 @@ function Standart() {
       {/* Документ сымал көрүнүш (Кагаз форматындагы барак) */}
       <div className="document-sheet">
         <div className="document-content-area">
-          <h3>Нормативдик талаптардын тизмеси {!isAdmin && <span className="guest-notice">(Конок режими)</span>}</h3>
+          <h3>Нормативдик талаптардын тизмеси {!isAdmin && <span className="guest-notice"></span>}</h3>
 
           {loading ? (
             <p className="loading-text">Жүктөлүүдө...</p>
